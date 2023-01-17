@@ -1,0 +1,46 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#countdowndisplay{
+    font-size: xx-large;
+}
+button{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: black;
+    border: 2px rgb(150, 122, 122) ;
+    color:rgb(14, 121, 221) ;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+button:hover{
+    transform: rotate(360deg);
+    transition: 0.2s;
+    background-color: rgb(131, 3, 3);
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    color: rgb(8, 8, 8);
+      background-color: rgb(88, 228, 106);
+}
+#container,#countdowndisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    
+}
+
+#by{
+    font-size:xx-small;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
